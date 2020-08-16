@@ -1,5 +1,3 @@
-require 'pry'
-
 def substrings(string,dictionary)
   string_lower = string.downcase
   found_words = dictionary.select{|word| string_lower.include? word}
